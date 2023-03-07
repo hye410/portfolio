@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/index_mediaquery.css">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Secular+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed&display=swap" rel="stylesheet">
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="./js/index.js"></script>
+
+  <title>My portfolio</title>
+</head>
+<body>
+  <div id="wrap">
+  <!-- header -->
+  <header>
+    <div>
+      <h1><a href="#">My portfolio</a></h1>
+      <p class="submenu">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </p>
+
+      <!-- nav -->
+      <nav>
+        <h2 class="hide">메인내비게이션</h2>
+        <ul>
+          <!-- <li><a href="#box01">HOME</a></li> -->
+          <li><a href="#box01">Home</a></li>
+          <li><a href="#box02">INFO</a></li>
+          <li><a href="#box03">Skill</a></li>
+          <li><a href="#box04">Work</a></li>
+          <li><a href="#box05">contact</a></li>
+        </ul>
+        <p class="close">
+          <span></span>
+          <span></span>
+        </p>
+      </nav>
+    </div>
+  </header>
+  <!-- box01 : slide 들어갈 부분-->
+  <article id="box01" class="swiper">
+    <h3 class="hide">
+      We Design & Build<br>
+      Creative Products
+    </h3>
+    <ul class="swiper-wrapper">
+      <li class="swiper-slide no01">Let me show you my portfolio</li>
+      <li class="swiper-slide no02">Let me show you my portfolio</li>
+      <li class="swiper-slide no03">Let me show you my portfolio</li>
+      <li class="swiper-slide no04">Let me show you my portfolio</li>
+      <li class="swiper-slide no05">Let me show you my portfolio</li>
+    </ul>
+      <!-- If we need pagination -->
+   <div class="swiper-pagination"></div>
+
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </article>
+  <!-- box02 -->
+  <article id="box02">
+      <h3>About Me</h3>
+      <section>
+      <h4>
+        <!-- <img src="./pic/me.png" alt="picture"> -->
+      </h4>
+      <div>
+        <span>
+          Need a Creative Product?<br>
+          I can Help You!   
+        </span>
+        <p>
+          Hi! I’m Muhammad Mabrouk, and I’m a developer who has passion for building clean web applications with intuitive functionality. I enjoy the process of turning ideas into reality using creative solutions. I’m always curious about learning new skills, tools, and concepts. In addition to working on various solo full stack projects, I have worked with creative teams, which involves daily stand-ups and communications, source control, and project management.
+        </p>
+
+        <p class="button">
+          <a href="#">Hear Me</a>
+        </p>
+      </div>
+      </section>    
+  </article>
+  <!-- box03 -->
+  <article id="box03">
+    <h3>My Skill</h3>
+    <div>
+      <dl>
+        <dt>What My Programming<br>
+          Skills Included?</dt>
+          <dd>
+            I develop simple, intuitive and responsive user interface that helps users get things done with less effort and time with those technologies.
+          </dd>
+      </dl>
+
+      <ul>
+        <li><img src="./images/icon/html5.png" alt="html5"></li>
+        <li><img src="./images/icon/css3.png" alt="css3"></li>
+        <li><img src="./images/icon/javascript.png" alt="javascript"></li>
+        <li><img src="./images/icon/jquery.png" alt="jquery"></li>
+        <li><img src="./images/icon/react.png" alt="react"></li>
+        <li><img src="./images/icon/bootstrap.png" alt="bootstrap"></li>
+        <li><img src="./images/icon/git.png" alt="git"></li>
+        <li><img src="./images/icon/npm.png" alt="npm"></li>
+        <li><img src="./images/icon/typescript.png" alt="typescript"></li>
+        <li><img src="./images/icon/sass.png" alt="sass"></li>
+      </ul>
+    </div>
+  </article>
+  <!-- box04 -->
+  <article id="box04">
+    <h3>MY WORKS</h3>
+    <section>
+      <h4>See My Works Which Will Amaze You!</h4>
+      <p>
+        We develop the best quality website that serves for the long-term. Well-documented, clean, easy and elegant interface helps any non-technical clients.
+      </p>
+
+      <ul>
+        <li><a href="#">HTML</a></li>
+        <li><a href="#">Javascript</a></li>
+        <li><a href="#">vue</a></li>
+        <li><a href="#">React</a></li>
+      </ul>
+
+      <div class="gallery">
+        <p class="prev">          
+        &#8249;
+        </p>
+        <p class="next">
+          &#8250;</p>
+        <div class="show">
+          <div class="all">
+            <figure>
+             <img src="./images/pic01.png" alt="work01">
+            <figcaption>
+             work01
+            </figcaption>
+           </figure>
+
+            <figure>
+          <img src="./images/pic02.png" alt="work02">
+          <figcaption>
+            work02
+          </figcaption>
+           </figure>
+
+            <figure>
+          <img src="./images/pic03.png" alt="work03">
+          <figcaption>
+            work03
+          </figcaption>
+           </figure>
+
+            <figure>
+          <img src="./images/pic04.png" alt="work04">
+          <figcaption>
+            work04
+          </figcaption>
+           </figure>
+
+            <figure>
+          <img src="./images/pic03.png" alt="work05">
+          <figcaption>
+            work05
+          </figcaption>
+            </figure>
+
+            <figure>
+          <img src="./images/pic01.png" alt="work06">
+          <figcaption>
+            work06
+          </figcaption>
+            </figure>
+      
+          </div>
+       </div>       
+      </div>
+
+    <div id="modal">
+      <p class="close">
+        <span></span>
+        <span></span>
+      </p>
+      <section>
+        <h4>title01</h4>
+        <div>
+        <figure>
+          <img src="./images/pic01.png" alt="work01">
+          <figcaption class="hide">work01</figcaption>                
+        </figure>
+        <dl>
+          <dt>제작년도</dt>
+          <dd>???</dd>
+          <dt>사용프로그램</dt>
+          <dd>???</dd>
+          <dt>주소</dt>
+          <dd><a href="#">http://자신의 주소</a></dd>
+          <dt>설명</dt>
+          <dd>???</dd>
+        </dl>
+        </div>
+      </section>
+    </div>     
+  </section>
+</article>
+  <!-- box05 -->
+  <article id="box05">
+    <h3>Contact</h3>
+    <div>
+      <section>
+        <h4>
+          Have You Any Project?<br>
+          Please Drop a Message
+        </h4>
+        <p>
+          Get in touch and let me know how I can help. Fill out the form and be in touch as soon as possible.
+        </p>    
+  
+        <dl>
+        <dt>Address:</dt>
+        <dd>941 Saqrqorish Road, alandalos, grnata, wa</dd>
+        <dt>Phone:</dt>
+        <dd>(02) 0000 0000 0000</dd>
+        <dt>Email:</dt>
+        <dd>info@sample.com</dd>
+        </dl>
+      </section>
+
+      <form action="#" method="post">
+        <fieldset>
+          <lable class="hide">Contact</lable>
+          <dl>
+            <dt><label for="userName">Name</label></dt>
+            <dd><input type="text" id="userName" name="userName" required></dd>
+            <dt><label for="userEmail">Email</label></dt>
+            <dd><input type="email" id="userEmail" name="userEmail" required></dd>
+            <dt><label for="userPhone">Phone</label></dt>
+            <dd><input type="tel" id="userPhone" name="userPhone" required></dd>
+            <dt><label for="userMessage">Message</label></dt>
+            <dd><textarea name="userMessage" id="userMessage"></textarea></dd>
+          </dl>
+          <p><input type="submit" value="submit"></p>
+        </fieldset>
+      </form>
+    </div>
+</article>
+
+  <!-- aside -->  
+  <aside>
+    <!-- <p class="sub">
+      <a href="#"><span>1</span></a>
+      <a href="#box01"><span>2</span></a>
+      <a href="#box02"><span>3</span></a>
+      <a href="#box03"><span>4</span></a>
+      <a href="#box04"><span>5</span></a>
+      <a href="#box05"><span>6</span></a>
+    </p> -->
+    <ul>
+      <!-- <li><a href="#">1</a></li> -->
+      <li><a href="#box01">2</a></li>
+      <li><a href="#box02">3</a></li>
+      <li><a href="#box03">4</a></li>
+      <li><a href="#box04">5</a></li>
+      <li><a href="#box05">6</a></li>
+    </ul>
+
+    <p class="top"><a href="#">&#8743;</a>    
+    </p>
+  </aside>
+
+  <!-- footer -->
+  <footer>
+    <small>Copyright (c) 2022 my portfolio by smg all right reserved</small>
+  </footer>
+
+  <script>
+    var swiper = new Swiper(".swiper", {
+      speed:2000,
+      autoplay:true,
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+  </div>
+</body>
+</html>
